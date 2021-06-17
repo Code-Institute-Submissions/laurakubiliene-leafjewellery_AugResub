@@ -3,13 +3,12 @@ html {
 }
 
 body {
-	background: url('/media/background9.jpg') no-repeat center center fixed;
-	background-size: cover;
+    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
+    background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
-    font-family: "Josefin+San";
+    font-family: 'Lato';
 }
-
 
 /* from Bulma */
 .icon {
@@ -37,6 +36,19 @@ body {
 .btn-black {
     background: black;
     color: white;
+}
+
+.btn-outline-black {
+    background: white;
+    color: black !important; /* use important to override link colors for <a> elements */
+    border: 1px solid black;
+}
+
+.btn-outline-black:hover,
+.btn-outline-black:active,
+.btn-outline-black:focus {
+    background: black;
+    color: white !important;
 }
 
 .shop-now-button:hover,
@@ -84,11 +96,13 @@ a.category-badge > span.badge:hover {
     right: 10px;
 }
 
-.btt-link {
+.btt-link,
+.update-link,
+.remove-item {
     cursor: pointer;
 }
 
-/* --------------------------------- Media queries */
+/* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
@@ -100,6 +114,7 @@ a.category-badge > span.badge:hover {
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
+        position: fixed;
         top: 0;
         right: 0;
         left: 0;
