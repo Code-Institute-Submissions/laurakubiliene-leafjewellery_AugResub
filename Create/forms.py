@@ -5,10 +5,7 @@ from .models import Order
 class OrderForm(forms.ModelForm):
     class Meta:
         model = Order
-        fields = ('full_name', 'email', 'phone_number',
-                  'street_address1', 'street_address2',
-                  'town_or_city', 'postcode', 'country',
-                  'county',)
+        fields = ('full_name', 'email', 'phone_number')
 
     def __init__(self, *args, **kwargs):
         """
@@ -20,12 +17,10 @@ class OrderForm(forms.ModelForm):
             'full_name': 'Full Name',
             'email': 'Email Address',
             'phone_number': 'Phone Number',
-            'country': 'Country',
-            'postcode': 'Postal Code',
-            'town_or_city': 'Town or City',
-            'street_address1': 'Street Address 1',
-            'street_address2': 'Street Address 2',
-            'county': 'County',
+            'category': 'Category',
+            'name': 'product.name',
+            'size': 'product.has_sizes',
+            'colour': 'product.colour',
         }
 
         self.fields['full_name'].widget.attrs['autofocus'] = True
@@ -35,5 +30,4 @@ class OrderForm(forms.ModelForm):
             else:
                 placeholder = placeholders[field]
             self.fields[field].widget.attrs['placeholder'] = placeholder
-            self.fields[field].widget.attrs['class'] = 'stripe-style-input'
             self.fields[field].label = False
