@@ -1,4 +1,7 @@
-from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpResponse
+from django.shortcuts import render, get_object_or_404
 
-# Create your views here.
 
+def comments(request):
+    template = 'comments/comments.html'
+
+    return render(request, template)
