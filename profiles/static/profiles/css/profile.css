@@ -1,26 +1,16 @@
-{% extends "base.html" %}
-{% load static %}
+#profile-update-form .form-control {
+    color: #000;
+}
 
-{% block extra_css %}
-    <link rel="stylesheet" href="{% static 'profiles/css/profile.css' %}">
-{% endblock %}
+#profile-update-form input::placeholder {
+    color: #aab7c4;
+}
 
-{% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
-    </div>
-{% endblock %}
+#id_default_country,
+#id_default_country option:not(:first-child) {
+    color: #000;
+}
 
-{% block content %}
-    <div class="overlay"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <hr>
-                <h2 class="logo-font mb-4">My Profile</h2>
-                <hr>
-            </div>
-        </div>
-{% endblock %}
+#id_default_country option:first-child {
+    color: #aab7c4;
+}
