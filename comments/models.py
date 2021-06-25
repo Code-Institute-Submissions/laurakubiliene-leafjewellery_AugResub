@@ -9,6 +9,5 @@ class Comment(models.Model):
     email = models.EmailField()
     content = models.TextField()
 
-
     def __str__(self):
-        return 'Comment {} by {}'.format(self.body, self.name)
+        return 'Comment {} by {}'.format(self.name, self.email, self.content)
