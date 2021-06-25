@@ -9,6 +9,10 @@ body {
     color: #555;
     font-family: 'Lato';
 }
+
+.fixed-top {
+    position: none;
+}
  
 /* from Bulma */
 .icon {
@@ -268,8 +272,8 @@ input[name='q']::placeholder {
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
-    .fixed-top-desktop-only {
-        top: 0;
+    .top-desktop-only {
+        top: -5;
         right: 0;
         left: 0;
         z-index: 1030;
