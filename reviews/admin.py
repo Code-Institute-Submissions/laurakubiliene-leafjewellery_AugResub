@@ -11,4 +11,5 @@ class ReviewAdmin(admin.ModelAdmin):
     def approve_reviews(self, request, queryset):
         queryset.update(active=True)
 
+
 admin.site.register(Review, ReviewAdmin)

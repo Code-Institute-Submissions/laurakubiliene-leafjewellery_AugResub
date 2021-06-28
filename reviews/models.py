@@ -1,7 +1,4 @@
 from django.db import models
-from django.template.defaultfilters import slugify
-from django.contrib.auth.models import User
-from django.urls import reverse
 
 
 class Review(models.Model):
@@ -9,4 +6,4 @@ class Review(models.Model):
     content = models.TextField()
 
     def __str__(self):
-        return 'Review {} by {}'.format(self.content)
+        return 'Review {} by {}'.format(self.product_name, self.content)
