@@ -1,23 +1,12 @@
 from django.db import models
+from django.template.defaultfilters import slugify
 from django.contrib.auth.models import User
+from django.urls import reverse
 
 
-class Category(models.Model):
-    name = models.CharField(max_length=255)
-
-    def __str__(self):
-        return self.name
-
-
-class Product(models.Model):
-    name = models.CharField(max_length=255)
+class Review(models.Model):
+    product_name = models.TextField()
     content = models.TextField()
-    category = models.ManyToManyField(Category, related_name='products')
-    created = models.DateField(auto_now_add=True)
-    updated = models.DateField(auto_now=True)
-
-    class Meta:
-        ordering = ['-created']
 
     def __str__(self):
-        return self.name
+        return 'Review {} by {}'.format(self.content)

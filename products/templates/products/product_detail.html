@@ -108,18 +108,15 @@
                                         <form method="POST" action="{% url 'reviews' %}" class="form mb-2"
                                             enctype="multipart/form-data">
                                             {% csrf_token %}
-                                            {{ forms|crispy }}
+                                            {{ form|crispy }}
                                             {% for field in form %}
-                                            {% if redirect_field_value %}
-                                            <input type="hidden" name="{{ redirect_field_name }}"
-                                                value="{{ redirect_field_value }}" />
-                                            {% endif %}
+                                                {% if redirect_field_value %}
+                                                <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+                                                {% endif %}
                                             {% endfor %}
                                             <div class="text-right">
-                                                <a class="btn btn-outline-black rounded-0"
-                                                    href="{% url 'comments' %}">Cancel</a>
-                                                <button class="btn btn-black rounded-0" type="submit">Add
-                                                    Review</button>
+                                                <a class="btn btn-outline-black rounded-0" href="{% url 'reviews' %}">Cancel</a>
+                                                <button class="btn btn-black rounded-0" type="submit">Add Review</button>
                                             </div>
                                         </form>
                                     </div>

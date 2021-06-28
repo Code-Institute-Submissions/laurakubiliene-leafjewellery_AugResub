@@ -22,13 +22,3 @@ def comments(request):
     }
 
     return render(request, template, context)
-
-
-
-
-
-
-def comments(request):
-    template = 'comments/comments.html'
-
-    return render(request, template)
