@@ -5,7 +5,7 @@ from .models import Review
 
 
 class ReviewAdmin(admin.ModelAdmin):
-    list_display = ('content',)
+    list_display = ('product_name', 'content')
     actions = ['approve_reviews']
 
     def approve_reviews(self, request, queryset):

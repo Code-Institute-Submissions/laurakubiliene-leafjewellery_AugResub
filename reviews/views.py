@@ -16,7 +16,7 @@ def reviews(request):
     else:
         form = ReviewForm()
 
-    template = 'reviews/product_detail.html'
+    template = 'reviews/reviews.html'
     context = {
         'form': form,
     }
