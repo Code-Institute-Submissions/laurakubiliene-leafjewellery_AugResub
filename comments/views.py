@@ -8,11 +8,12 @@ def comments(request):
     if request.method == 'POST':
         form = CommentForm(request.POST, request.FILES)
         if form.is_valid():
-            product = form.save()
             messages.success(request, 'Successfully added comment!')
             return redirect(reverse('comments'))
         else:
-            messages.error(request, 'Failed to add comment. Please ensure the form is valid.')
+            messages.error(
+                request,
+                'Failed to add comment. Please ensure the form is valid.')
     else:
         form = CommentForm()
 
