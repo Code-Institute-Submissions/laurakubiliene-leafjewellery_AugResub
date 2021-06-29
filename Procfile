@@ -1,1 +1,1 @@
-web: gunicorn leaf-jewellery.wsgi:application
+web: gunicorn leafjewellery.wsgi:application
