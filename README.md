@@ -66,6 +66,9 @@ Also Tutor team helped very much to understand models and to make my apps work a
 
 #### Media
 Photographs, Jewellery and drawings are made by me.
+#### Superuser:
+djangolaura
+klivytee
 
 #### Acknowledgements
 My Mentor for support and updates. Tutor support at Code Institute for their support and endless patience.
