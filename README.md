@@ -65,8 +65,10 @@ Also Tutor team helped very much to understand models and to make my apps work a
 
 
 #### Media
-The background image is taken by developer of a drawing made by developer, all the photographs are taken by developer 
-of a jewellery that was made by developer.
+Photographs, Jewellery and drawings are made by me.
+
+#### Acknowledgements
+My Mentor for support and updates. Tutor support at Code Institute for their support and endless patience.
 
 
 
