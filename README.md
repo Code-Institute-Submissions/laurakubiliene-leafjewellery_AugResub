@@ -1,3 +1,89 @@
+###### Leaf Jewellery
+###### Milestone project 4: Full Stack Frameworks with Django– Code Institute
+The project is made for business purposes, taking mostly B2C form as the shop is more interesting for 
+individual shopping. This handmade jewellery site is balanced for customers to find jewellery for every day, 
+to order it smoothly online and to enjoy. 
+#### UX
+Leaf Jewellery site is made super simple to meet the customer needs for quick online shopping purposes. 
+The photographs of the jewellery were taken for customers to focus on exact piece of jewellery, 
+without being distracted by surroundings. Images are used of a good quality for users to see the product 
+they are buying or just admiring. 
+#### User Stories
+1. As a user I would love to see all the choice of products but would like to see the photo and description of individual pieces of jewellery as well.
+2. I want to have an opportunity to see what products I have already chosen at any time of shopping.
+3. Easy and comfortable payment system is very attractive.
+4. I like the idea of having my own account and making it a bit more personalised.
+5. Simple registration and log in log out system.
+6. I always wondered why shop keepers do not want to hear a feedback on their shop so they can improve – 
+it would be nice to have an opportunity to write them or at least to leave some kind of one product review.
+
+#### Strategy
+The goal of an online shop is to advertise the product and make customers comfortable to choose and 
+buy handmade jewellery.
+#### Scope
+The site is structured to easily navigate through choosing, shopping, paying processes with maximum comfort.
+#### Structure
+The site structure is based on simplicity, keeping the customers buy hand and leading through choosing and 
+purchasing process.
+#### Sceleton
+Using these wireframes were created to support the idea of a site.
+https://drive.google.com/drive/folders/1EGLB31vevTqcGMHJhX39fmW4vqui5s_7?usp=sharing
+#### Surface
+The colour palette was chosen on Pinterest platform to benefit a simple design of the project.
+#### Technologies
+HTML – to create the foundation of a site.
+CSS – to create visually pleasant web page.
+JavaScript – to make it more interactive.
+MongoDB – for data 
+Python 
+Bootstrap– to make it responsive.
+Balsamiq – to create sketches of a future site.
+
+
+#### Features
+The customer can choose and purchase a chosen jewellery product, 
+can look through the whole shop or just their bag, can contact the shop, 
+can easily pay for their products, or delete a chosen product from their bag.
+The project is responsive on all screen sizes.
+#### Features left to implement
+The future features: more payment opportunities and create and order your own design jewellery.
+
+#### Deployment
+The site was deployed to heroku using AWS. The Deployment process was
+complicated so I really needed to follow all the steps from the course in an accurate manner.
+The steps taken were as follows:
+1. First while building the foundation of a project all the add ons and changes were commited and pushed to Github.
+I had to add products and categories to my project manually.
+2. Then heroku app was connected to a github. and there I had to add products manually as well.
+3. AWS was chosen to store static and media files. 
+
+#### Issues and Bugs
+There were some issues with me undersstanding and implementing the new knowledge about secret key
+- where it should be and how it has to look like. With a help of Tutor Team I was able to solve that quite quickly.
+I also struggled to connect my database with heroku as I did not used fixtures from course project so that is why I entered everything manually.
+Also Tutor team helped very much to understand models and to make my apps work and connect to my database.
+
+
+#### Media
+The background image is taken by developer of a drawing made by developer, all the photographs are taken by developer 
+of a jewellery that was made by developer.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome Laura Kubiliene,
