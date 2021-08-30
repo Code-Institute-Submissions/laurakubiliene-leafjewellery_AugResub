@@ -62,6 +62,15 @@ There were some issues with me undersstanding and implementing the new knowledge
 - where it should be and how it has to look like. With a help of Tutor Team I was able to solve that quite quickly.
 I also struggled to connect my database with heroku as I did not used fixtures from course project so that is why I entered everything manually.
 Also Tutor team helped very much to understand models and to make my apps work and connect to my database.
+There was always error 500 thrown when somebody needed to register or log in so I put the setting of DEBUG to True and with a help of my mentor and tutor team was able to solve the issue by reading and understanding the console logs and how to fix them.
+
+#### Testing
+Following user stories all the functions that users can interact with were tested.
+There are many ways to check on every product the site has and to search for something specifically, I searched by colours and everything worked in an ideal way.
+There was a bit of a problem to register and to log in for the users before, but now the error 500 is fixed and users can register and start being a member with a profile, as well as log in and of course see their orders that were made earlier. One can still shop without registering.
+There are two ways for the user of a shop to leave some feedback for the shop owner as they can leave a comments about general things or their ideas about improving a shop or some issue that they experience or they can leave a review about a specific product. Those features were tested and are working.
+The site was tested on a mobile gadgets as well as laptops with different browsers.
+
 
 
 #### Media
