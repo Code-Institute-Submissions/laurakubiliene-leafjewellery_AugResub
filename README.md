@@ -71,7 +71,9 @@ There was a bit of a problem to register and to log in for the users before, but
 There are two ways for the user of a shop to leave some feedback for the shop owner as they can leave a comments about general things or their ideas about improving a shop or some issue that they experience or they can leave a review about a specific product. Those features were tested and are working.
 The site was tested on a mobile gadgets as well as laptops with different browsers.
 
-
+#### Database scetch
+https://drive.google.com/file/d/1__F-b1o_E3GHiHb8muloIyrUBg7B_kBC/view?usp=sharing
+By following this link you will find a rough scetch of the database, but it is only to show that I know about this and understand that the relationships have to be more though over and my developer designer skills are yet to worked on.
 
 #### Media
 Photographs, Jewellery and drawings are made by me.
