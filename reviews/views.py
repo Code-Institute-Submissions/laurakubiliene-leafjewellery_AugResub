@@ -9,6 +9,7 @@ def reviews(request):
         form = ReviewForm(request.POST, request.FILES)
         if form.is_valid():
             messages.success(request, 'Successfully added review!')
+            form.save()
             return redirect(reverse('reviews'))
         else:
             messages.error(

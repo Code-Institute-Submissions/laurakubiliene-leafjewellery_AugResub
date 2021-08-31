@@ -80,7 +80,7 @@ Photographs, Jewellery and drawings are made by me.
 
 
 #### Acknowledgements
-My Mentor for support and updates. Tutor support at Code Institute for their support and endless patience.
+My Mentor for support and updates. Tutor team at Code Institute for their support and endless patience. Special Thanks to Julia Roberts for beimg my first celebrity customer.
 
 
 

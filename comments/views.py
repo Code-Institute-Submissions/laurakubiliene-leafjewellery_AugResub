@@ -9,6 +9,7 @@ def comments(request):
         form = CommentForm(request.POST, request.FILES)
         if form.is_valid():
             messages.success(request, 'Successfully added comment!')
+            form.save()
             return redirect(reverse('comments'))
         else:
             messages.error(
